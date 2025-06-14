@@ -35,3 +35,20 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Build
+/out/
+/build/
+/target/
+*.log
+
+# 환경 설정
+application.yml
+application-*.yml
+.env
+
+# 인증/보안
+*.key
+*.crt
+secret/
+cert/
