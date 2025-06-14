@@ -1,0 +1,11 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+
+    <logger name="p6spy" level="INFO"/>
+    <logger name="com.p6spy" level="INFO"/>
+    <logger name="jdbc" level="OFF"/> <!-- 혹시 남아있다면 반드시 OFF -->
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
